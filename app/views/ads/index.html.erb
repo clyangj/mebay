@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>
+
+    </title>
+  </head>
+  <body>
+    <ul>
+    <!-- <% @ads.each_with_index do |ad, index| %> -->
+    <!-- <li> -->
+    <!-- <a href="/ads/<%=ad.id %>" > <%= ad.name + ad.id.to_s%> </a> -->
+    <!-- </li> -->
+    <!-- <%end%> -->
+
+    <% for ad in @ads %>
+    <li><a href=<%="/ads/#{ad.id}"%>><%= ad.name + ad.id.to_s%> </a></li>
+    <% end %>
+    </ul>
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<h1>New ad</h1>
+    <%= form_for @ad, :url=>{:action=>'create'} do |f| %>
+    <p>
+    <b>Name:<br/><%= f.text_field :name%> </b>
+    </p>
+    <p>
+    <b>Description:<br/> <%= f.text_area :description%></b>
+    </p>
+    <p>
+    <b>Price:<br/> <%= f.text_field :price%></b>
+    </p>
+    <p>
+    <b>Seller:<br/> <%= f.text_field :seller_id%></b>
+    </p>
+    <p>
+    <b>Email:<br/> <%= f.text_field :email%></b>
+    </p>
+    <p>
+    <b>Img url:<br/> <%= f.text_field :img_url_string%></b>
+    </p>
+    <p><%=f.submit '创建'%></p>
+    <%end%>
+
