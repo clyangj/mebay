@@ -13,7 +13,6 @@ class AdsController < ApplicationController
   end
 
   def create
-    binding.pry
     ad = Ad.create params[:ad]
     if ad.save
       flash[:notice] = '保存成功'
