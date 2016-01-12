@@ -138,6 +138,11 @@ group :test do
   gem 'timecop'
 end
 
+#Heroku 使用PostgreSQL 数据库
+group :production do
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+end
 gem 'wx_pay'
 gem 'ruby-pinyin'
 gem 'bcrypt', '~> 3.1.7'
