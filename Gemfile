@@ -136,6 +136,7 @@ group :test do
   gem 'database_cleaner'
   gem 'rspec-rails', '~> 3.0'
   gem 'timecop'
+  gem 'guard-minitest', '2.3.1'
 end
 
 #Heroku 使用PostgreSQL 数据库
