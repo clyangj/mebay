@@ -88,6 +88,7 @@ gem 'qiniu', '6.5.0'
 
 gem 'momentjs-rails', '>= 2.8.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.7.14'
+gem 'bootstrap-sass'
 
 # 富文本编辑器
 gem 'rails_kindeditor'

@@ -38,8 +38,14 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (6.0.3)
+    autoprefixer-rails (6.3.1)
+      execjs
+      json
     awesome_print (1.6.1)
     bcrypt (3.1.10)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     bootstrap3-datetimepicker-rails (4.7.14)
       momentjs-rails (>= 2.8.1)
     builder (3.2.2)
@@ -233,6 +239,7 @@ GEM
     ruby-pinyin (0.4.8)
       rmmseg-cpp (~> 0.2)
     ruby-progressbar (1.7.5)
+    sass (3.4.21)
     shellany (0.0.1)
     slop (3.6.0)
     spreadsheet (1.1.1)
@@ -287,6 +294,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   bcrypt (~> 3.1.7)
+  bootstrap-sass
   bootstrap3-datetimepicker-rails (~> 4.7.14)
   cancancan (~> 1.10)
   capistrano-bundler
