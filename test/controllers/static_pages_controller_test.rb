@@ -3,7 +3,7 @@ require 'test_helper'
 class StaticPagesControllerTest < ActionController::TestCase
 
   def setup
-    @base_title = 'Ruby on Rails Tutorial'
+    @base_title = 'Ruby On Rails Tutorial'
   end
 
   test "should get home" do
